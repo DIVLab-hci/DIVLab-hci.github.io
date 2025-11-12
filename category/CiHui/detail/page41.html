@@ -165,7 +165,7 @@
         });
 
         // 动态替换模板内容
-        document.getElementById('title-img').src = `/category/Cihui/detail/img3/${IMG_BASE_PATH}-title.png`;
+        document.getElementById('title-img').src = `/category/CiHui/detail/img3/${IMG_BASE_PATH}-title.png`;
         document.getElementById('item-number').textContent = ITEM_NUMBER;
         document.getElementById('item-name').textContent = ITEM_NAME;
 
@@ -173,10 +173,10 @@
         const types = ['photo', 'color', 'line'];
         wrappers.forEach((wrapper, i) => {
             const type = types[i];
-            wrapper.dataset.src = `/category/Cihui/detail/img3/${IMG_BASE_PATH}-${type}.jpg`;
-            wrapper.querySelector('img').src = `/category/Cihui/detail/img3/${IMG_BASE_PATH}-${type}.jpg`;
+            wrapper.dataset.src = `/category/CiHui/detail/img3/${IMG_BASE_PATH}-${type}.jpg`;
+            wrapper.querySelector('img').src = `/category/CiHui/detail/img3/${IMG_BASE_PATH}-${type}.jpg`;
         });
-        document.getElementById('text-img').src = `/category/Cihui/detail/img3/${IMG_BASE_PATH}-text.png`;
+        document.getElementById('text-img').src = `/category/CiHui/detail/img3/${IMG_BASE_PATH}-text.png`;
     });
 
     // ---------------------------------大图切换------------------------------------
